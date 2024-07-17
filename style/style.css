@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+    font-family: "Inter", sans-serif;
+    width: 1440px;
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+
+/* Nav bar */
+
+
+.nav-boss {
+    width: 100%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    width: 1060px;
+    background-color: transparent;
+
+}
+
+.fitness {
+    font-style: italic;
+    color: #E6533C;
+    display: flex;
+    align-items: center;
+}
+
+.nav-options {
+    height: 38px;
+    width: 457px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    border-radius: 39px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+
+}
+
+.nav-options a {
+    text-decoration: none;
+}
+
+.nav-options p:hover {
+    color: #E6533C;
+}
+
+.about {
+    padding-right: 30px;
+}
+
+.nav-options p {
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-home {
+    width: 92px;
+    height: 38px;
+    background-color: #E6533C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 46px;
+    color: white;
+}
+
+.nav-home a {
+    text-decoration: none;
+    color: white;
+}
